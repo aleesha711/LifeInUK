@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_true_false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="ui.fragments.TrueFalse">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_baar"
+                android:textColor="@color/white"
+                android:text="Di si la siguiente afirmación es VERDAD o MENTIRA?    Los Brit Awards es un evento donde se les da premios a deportistas."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:id="@+id/tv_true_false_question"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Verdad"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle_image_red"
+                android:textColor="@drawable/button_pressed"
+                android:id="@+id/btn_true_false_option1"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_image_red"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Mentira"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@drawable/button_pressed"
+                android:id="@+id/btn_true_false_option2"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

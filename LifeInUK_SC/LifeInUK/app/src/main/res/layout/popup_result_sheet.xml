@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:text="PASS!"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:id="@+id/tv_popup_result_sheet_review"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="30sp"
+        android:text="60%"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/tv_popup_result_sheet_time"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:text="60%"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/tv_popup_result_sheet_percentage"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:textSize="20sp"
+        android:text="Your Score is 6 out of 10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/tv_popup_result_sheet_percent_text"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_image_holo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="Review Questions"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/btn_popup_erase_no"
+        android:id="@+id/btn_popup_result_sheet_review"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_image_holo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="Main Menu"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_popup_result_sheet_menu"
+        />
+
+
+</LinearLayout>

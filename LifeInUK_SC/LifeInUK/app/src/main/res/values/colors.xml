@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="mehron">#BD141C</color>
+    <color name="darkred">#C10909</color>
+    <color name="trans">#00000000 </color>
+
+    <color name="silver">#C0C0C0</color>
+    <color name="lsilver">#F1F1F1</color>
+    <color name="lightsilver">#F8F4F5</color>
+    <color name="light_silver">#EDEDED</color>
+
+    <color name="gray">#808080</color>
+    <color name="dimgray">#2F4F4F</color>
+    <color name="olive">#FEC850</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="darkaqua">#1EAAA4</color>
+    <color name="darkaqua_text">#09C0AD</color>
+    <color name="darked_aqua">#235B56</color>
+
+    <color name="lime">#BAFEE8</color>
+    <color name="teal">#008080</color>
+    <color name="green">#17CE28</color>
+    <color name="bg_green">#1F6F00</color>
+    <color name="btn_green">#73BC25</color>
+    <color name="blue">#2851A9</color>
+    <color name="navy">#002157</color>
+    <color name="black">#000000</color>
+
+</resources>

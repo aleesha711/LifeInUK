@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_multiple_choice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="ui.fragments.MultipleChoice">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_baar"
+            android:textColor="@color/white"
+            android:text="¿Qué cambio importante para nuestros derechos al voto tuvo lugar en 1969?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="35dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/tv_multiple_choice_question"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Please Select one option"
+            android:layout_marginTop="30dp"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/tv_multiple_choice_selection"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Se permitió votar a las mujeres mayores de 35 años."
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/circle_image_red"
+            android:textColor="@drawable/button_pressed"
+            android:id="@+id/btn_multiple_choice_option1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_image_red"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Se permitió el voto a los prisioneros."
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@drawable/button_pressed"
+            android:id="@+id/btn_multiple_choice_option2"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_image_red"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="La edad mínima para votar fue reducida a 18 años para el hombre y la mujer."
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@drawable/button_pressed"
+            android:id="@+id/btn_multiple_choice_option3"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_image_red"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="El voto obligatorio fue introducido."
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@drawable/button_pressed"
+            android:id="@+id/btn_multiple_choice_option4"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

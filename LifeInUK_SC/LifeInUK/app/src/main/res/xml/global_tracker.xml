@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ga_trackingId" translatable="false">UA-107970587-1</string>
+
+  <!-- Enable automatic Activity measurement -->
+  <bool name="ga_autoActivityTracking">true</bool>
+
+  <!-- The screen names that will appear in reports -->
+  <screenName name="ui.activity.MenuScreen">
+    Menu Screen
+  </screenName>
+  <screenName name="ui.activity.StartPractice">
+Start Practice
+  </screenName>
+
+    <screenName name="ui.activity.BottomBar">
+        Bottom Bar
+    </screenName>
+
+    <screenName name="ui.activity.Category">
+        Category
+    </screenName>
+
+    <screenName name="ui.activity.FirebaseFcmService">
+        Firebase FCM
+    </screenName>
+
+    <screenName name="ui.activity.MainActivity">
+        Main Activity
+    </screenName>
+
+    <screenName name="ui.activity.Progress">
+        Progress
+    </screenName>
+
+    <screenName name="ui.activity.Settings">
+        Settings
+    </screenName>
+
+    <screenName name="ui.activity.SplashScreen">
+        Splash
+    </screenName>
+
+    <screenName name="ui.activity.StartPractice">
+        Start Practice
+    </screenName>
+
+    <screenName name="ui.activity.StartTest">
+        Start Test
+    </screenName>
+
+    <screenName name="ui.activity.Update">
+        Update
+    </screenName>
+
+    <screenName name="ui.activity.WebView">
+        WebView
+    </screenName>
+</resources>

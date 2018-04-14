@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_practice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="ui.activity.StartPractice">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                layout="@layout/custom_action_bar"
+                android:id="@+id/include_action_bar_test">
+            </include>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_baar"
+                android:textColor="@color/white"
+                android:text="revision questions have been selected to complete this practice session, The list of revision questions will be from "
+                android:textSize="20sp"
+                android:paddingBottom="25dp"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/tv_start_practice_heading"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_image_red"
+                android:textColor="@drawable/button_pressed"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Start Practice"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/btn_start_practice_start_test"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_image_red"
+                android:textColor="@drawable/button_pressed"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Main Menu"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/btn_start_practice_main_menu"
+                />
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

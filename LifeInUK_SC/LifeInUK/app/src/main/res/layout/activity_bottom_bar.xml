@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:background="@color/silver">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#0000"
+        android:text="PREVIOUS"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:drawablePadding="-2dp"
+        android:id="@+id/btn_bottom_bar_previous"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#0000"
+        android:text="Next"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:drawablePadding="-25dp"
+        android:id="@+id/btn_bottom_bar_next"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="EXPLAIN"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/btn_bottom_bar_explain"
+        android:background="#0000"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:id="@+id/ll_bottom_bar_flag"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/flag2"
+            android:paddingRight="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="FLAG"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:id="@+id/ll_bottom_bar_flagged"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/flag1"
+            android:paddingRight="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="UNFLAG"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

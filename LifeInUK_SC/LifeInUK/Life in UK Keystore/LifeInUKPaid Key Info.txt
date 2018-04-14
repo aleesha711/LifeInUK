@@ -1,0 +1,4 @@
+Life in uk Paid
+keystore information
+password: lifeinukpaid
+Alias:TecJaunt

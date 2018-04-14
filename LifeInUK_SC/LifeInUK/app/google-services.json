@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "647709495976",
+    "firebase_url": "https://lifeinuk-54509.firebaseio.com",
+    "project_id": "lifeinuk-54509",
+    "storage_bucket": "lifeinuk-54509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647709495976:android:60179f5096d914c6",
+        "android_client_info": {
+          "package_name": "com.tecjaunt.www.lifeinuk.paid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647709495976-2uge6oom7d5nvf488uiag66t78i88u3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tecjaunt.www.lifeinuk.paid",
+            "certificate_hash": "1cf6a27d561128449fcc9e5288c6f84d7cd34042"
+          }
+        },
+        {
+          "client_id": "647709495976-l3khkei0ab3u7kr2b0079esgcfgn5msg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDugB2h2PPTrUNQqZsybmiNt4jmyg0hq5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647709495976-l3khkei0ab3u7kr2b0079esgcfgn5msg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
